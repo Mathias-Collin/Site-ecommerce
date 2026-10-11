@@ -1,0 +1,56 @@
+body {
+    font-family: "Roboto Condensed", Arial, sans-serif;
+    font-size: 0.8rem;
+    background-color: var(--color-c);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+
+nav > img {
+    height: 5rem;
+    width: auto;
+    margin-right: 30rem;
+    margin-left: 5rem;
+}
+
+nav > a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+nav > a:hover {
+    text-decoration-line: underline;
+    text-decoration-thickness: 0.1rem;
+    text-underline-offset: 0.5rem;
+    text-decoration-color: black;
+}
+
+.miseEnPage {
+    margin-right: 17rem;
+}
+
+.Valid  {
+    background: white;
+    border: 0.1rem solid black;
+    border-radius: 1rem;
+    margin: 15rem 10rem;
+    padding: 2rem ;
+    text-align: center;
+}
+
+.Valid > p {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.Valid > a {
+    text-decoration: underline;
+    font-size: 2rem;
+}

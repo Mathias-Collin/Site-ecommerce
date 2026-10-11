@@ -1,0 +1,190 @@
+body {
+    font-family: "Roboto Condensed", Arial, sans-serif;
+    font-size: 0.8rem;
+    background-color: var(--color-c);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+
+nav > img {
+    height: 5rem;
+    width: auto;
+    margin-right: 30rem;
+    margin-left: 5rem;
+}
+
+nav > a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+nav > a:hover {
+    text-decoration-line: underline;
+    text-decoration-thickness: 0.1rem;
+    text-underline-offset: 0.5rem;
+    text-decoration-color: black;
+}
+
+.miseEnPage {
+    margin-right: 17rem;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    background: url("../../images_boutique/Montre-fond-boutique.png") no-repeat;
+    background-size: 100rem;
+    color: white;
+    font-family: "Playfair Display", serif;
+}
+
+.hero > div {
+    margin-left: 15rem;
+}
+
+.hero > div > p:nth-child(1) {
+    font-weight: bold;
+    letter-spacing: 0.05rem;
+    font-size: 1rem;
+    margin-top: 3rem;
+    color: #9c7921;
+}
+
+h1 {
+    font-weight: lighter;
+    font-size: 2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero > div > p:nth-child(3) {
+    font-family: "Roboto Condensed", Arial, sans-serif;
+    font-weight: lighter;
+    font-size: 1.1rem;
+    letter-spacing: 0.05rem;
+    margin-bottom: 3rem;
+}
+
+.WTitre {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 6rem;
+}
+
+.WTitre h2 {
+    margin-left: 3rem;
+}
+
+h2 {
+    margin: 2rem 0 1rem 0;
+    font-family: "Playfair Display", serif;
+    font-size: 2rem;
+}
+
+.PartProduits {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Produit {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 0.2rem 0.2rem 0.2rem 0.2rem ;
+    margin: 0 3rem 2rem 3rem;
+}
+
+.Produit > img {
+    max-width: 15rem;
+    aspect-ratio: auto;
+    border-radius: 0.2rem 0.2rem 0 0;
+}
+
+.InfoProd{
+    margin: 1rem 0 0.5rem 1rem;
+    border-radius: 0 0 0.2rem 0.2rem ;
+}
+
+.InfoProd > p:nth-child(1){
+    font-weight: 500;
+    letter-spacing: 0.03rem;
+    color: dimgrey;
+}
+
+.InfoProd > p:nth-child(2){
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.VersPageProd {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.VersPageProd > p {
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+}
+
+.VersPageProd > a {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    font-weight: bolder;
+}
+
+.Engagements {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: white;
+}
+
+.Elmt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.Elmt > img{
+    width: 3rem;
+    aspect-ratio: auto;
+}
+
+.Elmt > p:nth-child(2){
+    font-family: "Playfair Display", serif;
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.Elmt > p:nth-child(3){
+    font-weight: 300;
+    letter-spacing: 0.03rem;
+    color: black;
+}
+
+footer > p {
+    color: white;
+    background-color: rgb(0 0 0 / 0.8);
+    padding: 1.4rem 0 1.4rem 2rem;
+}
