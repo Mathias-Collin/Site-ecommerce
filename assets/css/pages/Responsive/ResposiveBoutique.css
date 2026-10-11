@@ -1,0 +1,34 @@
+@media only screen and (max-width: 1033px) {
+
+    .miseEnPage {
+        margin-right: 10rem;
+    }
+
+    .hero > div {
+        margin-left: 7.5rem;
+    }
+
+    h2 {
+        margin: 2rem 0 3rem 0;
+        font-family: "Playfair Display", serif;
+        font-size: 2rem;
+    }
+
+}
+
+@media only screen and (max-width: 394px) {
+    nav > img {
+        height: 3rem;
+        width: auto;
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+
+    nav > a {
+        font-size: 0.5rem;
+    }
+
+    .miseEnPage {
+        margin-right: 1rem;
+    }
+}

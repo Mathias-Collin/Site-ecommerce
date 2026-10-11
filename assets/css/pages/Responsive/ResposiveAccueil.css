@@ -1,0 +1,250 @@
+@media only screen and (max-width: 1033px) {
+
+    .miseEnPage {
+        margin-right: 10rem;
+    }
+
+    .imgOffre1 {
+        padding: 0 10rem 10rem 0;
+    }
+
+    .encheres {
+        background: linear-gradient(90deg, goldenrod 0%, rgb(218 165 32 / 0.05)20%, goldenrod 40%);
+    }
+
+    .MtrEnch {
+        width: 25%;
+        margin-left: 5rem;
+    }
+
+    .txtEnch {
+        margin-left: 2rem;
+        margin-top: 1.5rem;
+    }
+
+    .EnchTB {
+        margin-top: 1.5rem;
+    }
+
+    .EnchTB > p{
+        font-size: 1.1rem;
+    }
+
+    .EnchTB > a{
+        font-size: 1.3rem;
+        text-align: center;
+        padding: 0.8rem;
+    }
+
+    .services {
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+
+    .service1 {
+        font-size: 1rem;
+        margin: 0 1rem;
+    }
+
+    .Qna {
+        flex-direction: column;
+    }
+
+    .details {
+        max-width: 95%;
+        margin-bottom: 2rem;
+    }
+
+    .VersForm {
+        margin: 0 3rem;
+    }
+}
+
+@media only screen and (max-width: 394px) {
+    nav > img {
+        height: 3rem;
+        width: auto;
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+
+    nav > a {
+        font-size: 0.5rem;
+    }
+
+    .miseEnPage {
+        margin-right: 1rem;
+    }
+
+    .top1 {
+        font-family: "Tangerine", cursive;
+        font-style: normal;
+        margin-top: 3rem;
+        font-size: 2rem;
+        color: white;
+    }
+
+
+    .titre {
+        font-family: "Roboto Condensed", sans-serif;
+        color: white;
+        font-weight: lighter;
+        font-size: 3.5rem;
+    }
+
+    .top2 {
+        margin-top: 1rem;
+        font-size: 1rem;
+        color:goldenrod;
+    }
+
+    .bouton1 {
+        padding: 0.7rem;
+        font-size: 0.8rem;
+    }
+
+    .categories {
+        background-size: 200%;
+    }
+
+    .croix {
+        width: 0;
+    }
+
+    .titre2 {
+        font-size: 2rem;
+        margin-top: 0.5rem;
+    }
+
+    .imTop1, .imTop2, .imBottom1, .imBottom2{
+        font-size: 1.5rem;
+        width: 8rem;
+        height: 8rem;
+        border: 0.1rem solid black;
+        color: rgb(255 255 255);
+    }
+
+    .imTop1 {
+        margin-right: 1rem;
+        margin-bottom: 1rem;
+        background:
+                linear-gradient(rgba(5, 17, 12, 0.96) 0%,
+                rgba(5, 17, 12, 0.76) 42%, rgba(5, 17, 12, 0.08) 74%),
+                url("../../../images_accueil/categorie_montres.jpg") center 44% / cover no-repeat;
+    }
+
+    .imTop2 {
+        margin-left: 1rem;
+        margin-bottom: 1rem;
+        background:
+                linear-gradient(rgba(5, 17, 12, 0.96) 0%,
+                rgba(5, 17, 12, 0.76) 42%, rgba(5, 17, 12, 0.08) 74%),
+                url("../../../images_accueil/categorie_horloge.jpg") center 44% / cover no-repeat;
+    }
+
+    .imBottom1 {
+        margin-right: 1rem;
+        background:
+                linear-gradient(0deg, rgba(5, 17, 12, 0.96) 0%,
+                rgba(5, 17, 12, 0.76) 42%, rgba(5, 17, 12, 0.08) 74%),
+                url("../../../images_accueil/categorie_pieces.jpg") center 44% / cover no-repeat;
+    }
+
+    .imBottom2 {
+        line-height: 1.5rem;
+        margin-left: 1rem;
+        background:
+                linear-gradient(0deg, rgba(5, 17, 12, 0.96) 0%,
+                rgba(5, 17, 12, 0.76) 42%, rgba(5, 17, 12, 0.08) 74%),
+                url("../../../images_accueil/categorie_entretient.jpg") center 44% / cover no-repeat;
+    }
+
+    .PartOffres {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5rem;
+    }
+
+    .textOffres {
+        font-size: 1.3rem;
+        margin-bottom: 2rem;
+    }
+
+    .offre1 {
+        margin-bottom: 2rem;
+    }
+
+    .imgOffre1 {
+        padding: 0 5rem 5rem 0;
+    }
+
+    .encheres {
+        justify-content: center;
+    }
+
+    .MtrEnch {
+        width: 30%;
+        margin-left: 1rem;
+    }
+
+    .txtEnch {
+        margin-right: 0;
+        margin-left: 0.5rem;
+    }
+
+    .txtEnch > h2{
+        font-size: 1rem;
+    }
+
+    .txtEnch > p{
+        font-size: 0.8rem;
+        margin-bottom: 1rem;
+    }
+
+    .EnchTB {
+        margin-top: 1.5rem;
+        margin-right: 1rem;
+    }
+
+    .EnchTB > p{
+        font-size: 0;
+        margin-bottom: 0.5rem;
+    }
+
+    .EnchTB > a{
+        margin-left: 0.5rem;
+        font-size: 0.8rem;
+        text-align: center;
+        padding: 0.4rem;
+    }
+
+    .services {
+        flex-direction: column;
+    }
+
+    .service1 {
+        margin-bottom: 1rem;
+    }
+
+    .details p {
+        font-size: 1rem;
+    }
+
+    .details summary {
+        font-size: 1rem;
+    }
+
+    .VersForm {
+        background-size: 122%;;
+    }
+
+    .VersForm > p{
+        font-size: 1.3rem;
+    }
+
+    .btnForm >a:nth-child(1){
+        font-size: 0.9rem;
+        padding: 1rem 0.5rem;
+    }
+
+}
